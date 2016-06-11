@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaautomator;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author barettj
+ */
+public class Javaautomator {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        new testGUI().setVisible(true);
+        // TODO code application logic here
+    }
+    
+}
+
+
+class ClassNameHere
+{
+
+    public static void infoBox(String infoMessage, String titleBar)
+    {
+        JOptionPane.showMessageDialog(null, infoMessage, titleBar, JOptionPane.INFORMATION_MESSAGE);
+    }
+}
